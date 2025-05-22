@@ -1,13 +1,22 @@
+let questions = {};
 
-const questions = {
-    "Science": ["What is gravity?", "What is photosynthesis?", "What is the speed of light?"],
-    "History": ["Who was Napoleon?", "What caused WWI?", "Who discovered America?"]
-};
+fetch('questions.json')
+  .then(response => response.json())
+  .then(data => {
+    questions = data;
+  })
+  .catch(error => {
+    console.error('Error loading questions:', error);
+  });
 
 function generateQuestion() {
-    const category = document.getElementById('category').value;
-    const categoryQuestions = questions[category];
-    const randomIndex = Math.floor(Math.random() * categoryQuestions.length);
-    const randomQuestion = categoryQuestions[randomIndex];
-    document.getElementById('question-display').innerText = randomQuestion;
+  const category = document.getElementById('category').value;
+  const categoryQuestions = questions[category];
+  if (!categoryQuestions) {
+    document.getElementById('question-display').innerText = "No questions found for this category.";
+    return;
+  }
+  const randomIndex = Math.floor(Math.random() * categoryQuestions.length);
+  const randomQuestion = categoryQuestions[randomIndex];
+  document.getElementById('question-display').innerText = randomQuestion;
 }
