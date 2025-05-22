@@ -5,6 +5,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
+    padding: 0;
     background-color: #f0f0f0;
     text-align: center;
 }
@@ -12,9 +14,16 @@ body {
 .container {
     text-align: center;
     background-color: white;
+    max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 1.8em;
+  text-align: center;
 }
 
 button {
@@ -24,9 +33,34 @@ button {
     cursor: pointer;
 }
 
+select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+
 #question-display {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 1.2em;
     font-weight: bold;
     color: #333;
+    text-align: center;
 }
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  #question-display {
+    font-size: 1.1em;
+  }
+}
+
