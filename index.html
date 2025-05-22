@@ -1,12 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title></title>
+  <title>Icebreaker Question Generator</title>
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2575.5">
   <style type="text/css">
@@ -14,23 +13,22 @@
     span.s1 {font-kerning: none}
   </style>
 </head>
+
 <body>
-  <div class="container">
- <h1>Icebreaker Question Generator</h1>
+  <main class="container">
+    <div class="form-section">
+      <label for="category">Choose a category:</label>
+      <select id="category">
+        <option value="SFW">SFW</option>
+        <option value="Anything goes">Anything goes</option>
+      <button onclick="generateQuestion()">Generate Question</button>
+    </div>
 
-<label for="category">Choose a category:</label>
-    <select id="category">
-        <option value="SFW">SFW</option>
-        <option value="Anything goes">Anything goes</option>
-    </select>
-
-    <button onclick="generateQuestion()">Generate Question</button>
-
-    <p id="question-display"></p>
-    <div id="question-display"></div>
-  </div>
-    <script src="questions.js"></script>
-
-
+    <section id="question-section">
+      <h2>Your Question:</h2>
+      <p id="question-display">Click the button to get a question!</p>
+    </section>
+  </main>="question-display"></div>
+  <script src="questions.js"></script>
 </body>
 </html>
