@@ -1,9 +1,8 @@
-
 {
-  "SFW": [
-    "Are you an early bird or night owl?",
-    "What's the last great book you read?",
-    "What's the best book you've read this year?",
+  "SFW": [
+    "Are you an early bird or night owl?",
+    "What's the last great book you read?",
+    "What's the best book you've read this year?",
     "If you could learn one new personal skill, what would it be?",
     "As a child, what did you want to be when you grew up?",
     "Do you have a bucket list? What is the next highest goal on there?",
@@ -25,7 +24,7 @@
     "What Olympic sport would you compete in, if you had to compete?",
     "What's your favourite snack?",
     "What's your favourite item you bought in the last year?",
-    "If you had to sing karoke, what song would you pick?",
+    "If you had to sing karaoke, what song would you pick?",
     "Have you completed anything from your bucket list?",
     "What's your favourite form of exercise?",
     "If you could live anywhere in the world for a year, where would it be?",
@@ -64,11 +63,11 @@
     "What kitchen gadget can you not live without?",
     "What is the weirdest kitchen gadget you own?",
     "If you could try any food from around the world, what would it be?"
-  ],
-  "Anything goes": [
-    "Do you have any weird talents?",
-    "Do you have any interesting scars, and what is the story behind them?",
-    "Are you a good dancer? (bonus points for proof!)",
+  ],
+  "Anything goes": [
+    "Do you have any weird talents?",
+    "Do you have any interesting scars, and what is the story behind them?",
+    "Are you a good dancer? (bonus points for proof!)",
     "Do you have any strange habits?",
     "You're in a cocktail bar - what do you order?",
     "What is your phone wallpaper?",
@@ -83,5 +82,5 @@
     "What's in your pockets right now?",
     "Who is your most listened to artist this year?",
     "What is the worst name you've ever heard (in a person you've personally met)?"
-  ]
+  ]
 }
