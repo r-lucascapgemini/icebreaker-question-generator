@@ -14,8 +14,8 @@ body {
 
 /* Header */
 header {
-  background-color: #800020; /* Burgundy */
-  color: white;
+  background-color: #f4f4f4;
+  color: burgundy;
   padding: 20px 0;
   text-align: center;
 }
