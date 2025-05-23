@@ -12,26 +12,31 @@ body {
     text-align: center;
 }
 
-/* Header */
+/* Header 
 header {
-  /*background-color: #f4f4f4; /* Burgundy */
+  background-color: #f4f4f4; 
   color: red;
   padding: 20px 0;
   text-align: center;
   font-size: 1.8em;
   font-weight: bold;
- position: absolute;
-top:0;
- 
+  position: absolute;
+  top:0;
 }
+*/
+
 h1 {
-  text-align: center;
- color: black;
-  padding: 20px 0;
-  font-size: 1.8em;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+  text-align: center;
+  color: black;
+ font-size: 1.8em;
   font-weight: bold;
  position: absolute;
 }
+
 
 /* Main container */
 .container {
