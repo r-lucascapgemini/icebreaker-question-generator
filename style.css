@@ -24,6 +24,14 @@ header {
 top:0;
  
 }
+h1 {
+  text-align: center;
+ color: black;
+  padding: 20px 0;
+  font-size: 1.8em;
+  font-weight: bold;
+ position: absolute;
+}
 
 /* Main container */
 .container {
@@ -36,10 +44,7 @@ top:0;
   text-align: center;
 }
 
-h1 {
-  font-size: 1.2em;
-  text-align: center;
-}
+
 
 /* Form section */
 .form-section {
