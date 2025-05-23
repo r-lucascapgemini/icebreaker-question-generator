@@ -16,12 +16,14 @@ body {
 header {
   /*background-color: #f4f4f4; /* Burgundy */
   color: red;
-  /*padding: 20px 0; */
+  padding: 20px 0;
   text-align: center;
   font-size: 1.8em;
   font-weight: bold;
+ position: absolute;
+top:0;
+ 
 }
-
 
 /* Main container */
 .container {
