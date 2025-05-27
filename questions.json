@@ -65,7 +65,13 @@
     "If you could try any food from around the world, what would it be?",
     "Are you any good at DIY? If yes, what's the most impressive thing you've fixed or built?",
     "Do you have a green thumb, or do plants go to your place to die?",
-    "What was your best subject in school?"
+    "What was your best subject in school?",
+    "What's the weirdest ice-cream flavour you've ever eaten?",
+    "What’s a local food from your area that everyone should try at least once?",
+    "What’s a productivity tip or habit that actually works for you?",
+    "What’s your most-used app?",
+    "What’s a task you secretly enjoy doing, even if others find it boring?",
+    "Do you prefer to jot down notes with pen and paper, or digitally?"
   ],
   "Anything goes": [
     "Do you have any weird talents?",
@@ -85,6 +91,7 @@
     "What is in your handbag/backpack?",
     "What's in your pockets right now?",
     "Who is your most listened to artist this year?",
-    "What is the worst name you've ever heard (in a person you've personally met)?"
+    "What is the worst name you've ever heard (in a person you've personally met)?",
+    "What's the weirdest toothpaste flavour you've tried?"
   ]
 }
